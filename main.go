@@ -11,7 +11,7 @@ import (
 	"github.com/progrium/macdriver/objc"
 )
 
-var defaultTimeFormatString = "Mon Jan 02 15:04 MST"
+var defaultTimeFormatString = "Mon Jan 2 15:04 MST"
 
 var (
 	flagFormatString = flag.String("fmt", defaultTimeFormatString, "time format string (golang time pkg)")
