@@ -11,6 +11,12 @@ Command clocks places additional time zones into your Mac status bar.
 
 clocks is a [Go](https://golang.org/) program for MacOS systems.
 
+Presming  you have a working Go insallation, yyou can install `clocks` via:
+
+```console
+go install github.com/tmc/clocks
+```
+
 ## Usage
 
 ```console
