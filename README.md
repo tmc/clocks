@@ -14,7 +14,7 @@ clocks is a [Go](https://golang.org/) program for MacOS systems.
 Presming  you have a working Go insallation, you can install `clocks` via:
 
 ```console
-go install github.com/tmc/clocks
+go install github.com/tmc/clocks@latest
 ```
 
 Note: You should have `$HOME/go/bin` on your shell's `PATH` so that `go install`ed binaries are directly executable.
