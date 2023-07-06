@@ -15,7 +15,7 @@ var defaultTimeFormatString = "Mon Jan 2 15:04 MST"
 
 var (
 	flagFormatString = flag.String("fmt", defaultTimeFormatString, "time format string (golang time pkg)")
-	flagTimezones    = flag.String("tzs", "UTC,America/Los_Angeles", "time zones")
+	flagTimezones    = flag.String("tzs", "UTC", "time zones")
 )
 
 func main() {
